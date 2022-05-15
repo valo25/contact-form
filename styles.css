@@ -1,0 +1,116 @@
+@import url(https://fonts.googleapis.com/css?family=Montserrat:400,700);
+
+html {
+  font-family: 'Montserrat', Arial, sans-serif;
+  -ms-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+}
+
+body {
+  background: #F2F3EB;
+  background-color: #f2edce
+}
+
+button {
+  overflow: visible;
+}
+button, input, select, textarea {
+  color: #5A5A5A;
+  font-family: sans-serif;
+  margin: 0;
+}
+
+input {
+  line-height: normal;
+}
+
+textarea {
+  overflow: auto;
+}
+
+form {
+  padding: 37.5px;
+  margin: 50px 0;
+}
+p{color: #474544;
+  font-size: 16px;
+  font-weight: 500;
+  letter-spacing: 4px;
+  text-align: left;
+}
+h1 {
+  color: #474544;
+  font-size: 32px;
+  font-weight: 700;
+  letter-spacing: 7px;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+
+.email {
+	float: right;
+	width: 45%;
+}
+
+
+
+
+.name {
+	float: left;
+	width: 45%;
+}
+
+
+
+
+
+.textarea {
+	line-height: 150%;
+	height: 150px;
+	resize: none;
+  width: 100%;
+}
+
+
+#form_button {
+  background: none;
+  border: solid 2px #474544;
+  color: #474544;
+  cursor: pointer;
+  display: inline-block;
+  font-size: 0.875em;
+  font-weight: bold;
+  outline: none;
+  padding: 25px 32px;
+  text-transform: uppercase;
+  
+}
+
+
+
+
+
+
+
+#container {
+  border: solid 3px #474544;
+  max-width: 678px;
+  margin: 40px auto;
+  position: relative;
+}
+
+form {
+  padding: 32px;
+  margin: 50px 0;
+}
+
+
+
+
+
+
+#submit:hover {
+  color: #e2dedb;
+}
+
